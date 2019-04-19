@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="ir.jsmaster.wpapp" version="1.0.0" 
+    xmlns="http://www.w3.org/ns/widgets" 
+    xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>WPApp</name>
+    <description>
+        A sample Apache Cordova application that responds to the deviceready event.
+    </description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        Apache Cordova Team
+    </author>
+    <plugin name="cordova-plugin-whitelist" spec="1" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+        <icon background="../src/assets/img/logo.png" density="ldpi" foreground="../src/assets/img/logo.png" src="../src/assets/img/logo.png" />
+        <icon background="../src/assets/img/logo.png" density="mdpi" foreground="../src/assets/img/logo.png" src="../src/assets/img/logo.png" />
+        <icon background="../src/assets/img/logo.png" density="hdpi" foreground="../src/assets/img/logo.png" src="../src/assets/img/logo.png" />
+        <icon background="../src/assets/img/logo.png" density="xhdpi" foreground="../src/assets/img/logo.png" src="../src/assets/img/logo.png" />
+        <icon background="../src/assets/img/logo.png" density="xxhdpi" foreground="../src/assets/img/logo.png" src="../src/assets/img/logo.png" />
+        <icon background="../src/assets/img/logo.png" density="xxxhdpi" foreground="../src/assets/img/logo.png" src="../src/assets/img/logo.png" />
+        <splash density="hdpi" src="../src/assets/img/logo.png" />
+        <splash density="port-hdpi" src="../src/assets/img/logo.png" />
+        <splash density="ldpi" src="../src/assets/img/logo.png" />
+        <splash density="port-ldpi" src="../src/assets/img/logo.png" />
+        <splash density="mdpi" src="../src/assets/img/logo.png" />
+        <splash density="port-mdpi" src="../src/assets/img/logo.png" />
+        <splash density="xhdpi" src="../src/assets/img/logo.png" />
+        <splash density="port-xhdpi" src="../src/assets/img/logo.png" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+</widget>
